@@ -1,4 +1,18 @@
-# Employee Management System
+# Employee Management System 
+Group 3
+Team -
+Anuj Raturi
+Aryanjeet Singh
+Bandi Harsha Vardhan
+Haritha S
+Poolagunta Pallavi
+Riddhi Chinchewadi
+Somya Mittal
+Sonia G A
+Sushmitha J
+Vishant Kulkarni 
+
+Overview 
 The Employee Management System is a Java-based application that facilitates the management of employee records within an organization. It allows users to perform various operations such as adding, viewing, updating, and deleting employee information. The project is built using Java 18, Maven, MySQL, and JDBC.
 
 Features
