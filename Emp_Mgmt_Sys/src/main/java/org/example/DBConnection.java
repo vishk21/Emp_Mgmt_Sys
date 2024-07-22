@@ -8,8 +8,8 @@ import org.apache.logging.log4j.Logger;
 
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/employee_db";
-    private static final String USER = "root"; // Replace with your MySQL username
-    private static final String PASSWORD = "User@1234"; // Replace with your MySQL password
+    private static final String USER = "root"; 
+    private static final String PASSWORD = "User@1234"; 
     private static final Logger logger = LogManager.getLogger(DBConnection.class);
 
     public static Connection getConnection() throws SQLException {
@@ -20,7 +20,7 @@ public class DBConnection {
             return connection;
         } catch (SQLException e) {
             logger.error("Error establishing database connection: ", e);
-            throw e; // Make sure this exception is thrown to the caller
+            throw e; 
         }
     }
 }
